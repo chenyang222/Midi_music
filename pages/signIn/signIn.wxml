@@ -1,0 +1,27 @@
+<!--pages/signIn/signIn.wxml-->
+<view class='body'>
+  <view class='title'>
+    <text>{{title}}</text>
+  </view>
+  <view class='container'>
+    <view class='signInTitle'>
+      <text>手机验证码登陆</text>
+    </view>
+    <view class='form'>
+      <form bindsubmit="formSubmit">
+        <view class="item">
+          <input type='number' maxlength="11" name="phone" placeholder-style="color:#dcdcdc" placeholder="请输入手机号码" />
+        </view>
+        <view class="item">
+          <input type='password' name="password" placeholder-style="color:#dcdcdc" placeholder="请输入密码" />
+        </view>
+        <view class="btn-area">
+          <button formType="submit">登陆</button>
+        </view>
+      </form>
+    </view>
+  </view>
+  <view class='footer'>
+    <text>LANDING PAGE</text>
+  </view>
+</view>

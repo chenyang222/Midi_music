@@ -1,0 +1,19 @@
+<!--pages/signIn/type/type.wxml-->
+<view>
+  <view class='logo'><image src='../../../images/logo.png'></image></view>
+  <view class='signInType'>
+    <view class='item'>
+      <view class='iconfont icon-geren'></view>
+      <navigator url="/pages/signIn/signIn?type=geren">个人登陆</navigator>
+    </view>
+    <view class='item'>
+      <view class='iconfont icon-iconjp'></view>
+      <navigator url="/pages/signIn/signIn?type=jp">社团登陆</navigator>
+    </view>
+    <view class='item'>
+      <view class='iconfont icon-shenqingchengweiVIP'></view>
+      <navigator url="/pages/signIn/signIn?type=shenqingchengweiVIP">厂牌登陆</navigator>
+    </view>
+  </view>
+  <view class='footer'><text>LANDING PAGE</text></view>
+</view>

@@ -1,0 +1,20 @@
+<!--component/circle/create/create.wxml-->
+
+<view class='gWidth'>
+  <!-- 圈子名称 -->
+  <view class='circleTitle'>
+    <input type='text' placeholder='请输入圈子名称(4-32个字节)' maxlength='32'></input>
+  </view>
+
+  <!-- 圈子简介 -->
+  <view class='summary'>
+    <textarea placeholder='请输入圈子简介' maxlength='240'></textarea>
+  </view>
+
+  <!-- 创建按钮  -->
+  <view class='create'>
+    <button>创建圈子</button>
+    <text>创建代表我接受《迷笛兴趣主页条款》</text>
+  </view>
+
+</view>

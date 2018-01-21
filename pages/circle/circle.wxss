@@ -1,0 +1,91 @@
+/* pages/circle/circle.wxss */
+
+/* gWidth  */
+
+.gWidth {
+  width: 710rpx;
+  margin: 0 auto;
+}
+
+/* 创建圈子 */
+
+.createCircle {
+  width: 150rpx;
+  height: 46rpx;
+  line-height: 46rpx;
+  font-size: 32rpx;
+  border: 1px solid #2bc6b6;
+  border-radius: 15rpx;
+  text-align: center;
+  margin-left: 28rpx;
+  color: #2bc6b6;
+}
+
+/* 排行榜 */
+
+.audit {
+  border-radius: 15rpx;
+  background-color: #818181;
+  color: #fff;
+  margin-top: 15rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 26rpx;
+}
+.audit text {
+  float: left;
+  margin-left: 35rpx;
+}
+.audit navigator {
+  float: right;
+  margin-right: 35rpx;
+}
+
+/* 排行榜列表 */
+
+.auditList{
+  background-color: #535353;
+  border-radius: 15rpx;
+  margin-top: 15rpx;
+  padding-bottom: 30rpx;
+}
+.auditList .listChild{
+  width: 670rpx;
+  height: 109rpx;
+  margin: 0 auto;
+  border-bottom: 1px solid #686767;
+  display: flex;
+  flex-direction:row;
+}
+.auditList .listChild .appear{
+  width: 100rpx;
+  line-height: 109rpx;
+}
+.auditList .listChild .appear image{
+  width: 69rpx;
+  height: 69rpx;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+.auditList .listChild .content{
+  width: 400rpx;
+}
+.auditList .listChild .content .title{
+  font-size: 24rpx;
+  height: 24rpx;
+  margin-top: 25rpx;
+}
+.auditList .listChild .content .summary{
+  font-size: 18rpx;
+  height: 18rpx;
+  margin-top: 10rpx;
+}
+.auditList .listChild .count{
+  width: 170rpx;
+  height: 18rpx;
+  font-size: 18rpx;
+  margin-top: 58rpx;
+}
+.auditList .listChild .count .noteNum{
+  margin-left: 29rpx;
+}

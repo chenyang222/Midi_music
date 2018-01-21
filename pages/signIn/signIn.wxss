@@ -1,0 +1,61 @@
+/* pages/signIn/signIn.wxss */
+
+.title {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.container {
+  margin: 0 50px;
+}
+
+.signInTitle {
+  height: 33px;
+  margin-bottom: 22px;
+}
+
+.signInTitle text {
+  padding: 4px;
+  color: #2bc6b6;
+  font-size: 16px;
+  border-bottom: 4px solid #2bc6b6;
+}
+
+.form .item {
+  height: 42px;
+  background-color: #4b4b4b;
+  border-radius: 4px;
+  line-height: 42px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.form .item+.item {
+  margin-top: 10px;
+}
+
+.form .btn-area {
+  margin-top: 100px;
+}
+
+.form .btn-area > button {
+  width: 100px;
+  height: 100px;
+  background-color: #2bc6b6;
+  border-radius: 50%;
+  color: #fff;
+  line-height: 100px;
+  text-align: center;
+}
+
+.footer {
+  position: fixed;
+  bottom: 30px;
+  width: 100%;
+  color: #818181;
+  text-align: center;
+  letter-spacing: 6px;
+  word-spacing: 6px;
+  transform: scale(1, 0.9);
+}

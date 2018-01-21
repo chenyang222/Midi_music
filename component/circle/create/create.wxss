@@ -1,0 +1,66 @@
+/* component/circle/create/create.wxss */
+
+/* gWidth */
+.gWidth{
+  width: 585rpx;
+  margin: 0 auto;
+  padding-top: 130rpx;
+}
+
+.circleTitle{
+  width: 585rpx;
+  height: 87rpx;
+}
+.circleTitle input{
+  width: 555rpx;
+  height: 87rpx;
+  line-height: 87rpx;
+  background-color: #4f4f4f;
+  padding-left: 30rpx;
+  border-radius: 15rpx;
+  font-size: 24rpx;
+  color: #ffffff;
+}
+
+.summary{
+  width: 585rpx;
+  height: 400rpx;
+  margin-top: 50rpx;
+}
+.summary textarea{
+  width: 525rpx;
+  height: 390rpx;
+  font-size: 24rpx;
+  border-radius: 15rpx;
+  background-color: #4f4f4f;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  padding-top: 10rpx;
+  line-height: 36rpx;
+  color: #ffffff;
+}
+
+.create{
+  margin-top: 100rpx;
+  width: 585rpx;
+  height: 180rpx;
+  text-align: center;
+}
+
+.create button{
+  width: 585rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  background-color: #04d9bf;
+  color: #ffffff;
+  border-radius: 15rpx;
+  font-size: 32rpx;
+}
+
+.create text{
+  width: 585rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  color: #ffffff;
+  font-size: 24rpx;
+}

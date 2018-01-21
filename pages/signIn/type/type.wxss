@@ -1,0 +1,33 @@
+/* pages/signIn/type/type.wxss */
+.logo {
+  width: 137px;
+  height: 62px;
+  margin: 100px auto 130px;
+}
+
+.signInType {
+  width: 292px;
+  margin: 0 auto 50px;
+}
+
+.signInType .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.signInType .item > navigator {
+  padding-left: 20px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 30px;
+  width: 100%;
+  color: #818181;
+  text-align: center;
+  letter-spacing: 6px;
+  word-spacing: 6px;
+  transform: scale(1,0.9)
+}

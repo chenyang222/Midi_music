@@ -1,0 +1,40 @@
+<!--pages/circle/circle.wxml-->
+
+<!-- 创建圈子 -->
+<view class='createCircle gWidth'>
+  <navigator url="/component/circle/create/create">创建圈子</navigator>
+</view>
+
+<!-- 排行榜 -->
+<view class='audit gWidth'>
+  <text>排行榜</text>
+  <navigator url="/component/circle/audit/audit">更多>></navigator>
+</view>
+
+<!-- 排行榜列表 -->
+<view class='auditList gWidth'>
+  <view wx:for="{{auditData}}" wx:key="*this">
+    <template is="listChildTemplate" data="{{...item}}"/>
+  </view>
+</view>
+
+<!-- listChildTemplate  -->
+<template name='listChildTemplate'>
+  <navigator url="/component/circle/detail/detail" class='listChild'>
+    <view class='appear'>
+      <image src='{{appear}}'></image>
+    </view>
+    <view class='content'>
+      <view class='title'>
+        <text>{{title}}</text>
+      </view>
+      <view class='summary'>
+        <text>{{summary}}</text>
+      </view>
+    </view>
+    <view class='count'>
+      <text class='peopleNum'>{{peopleNum}}人</text>
+      <text class='noteNum'>{{noteNum}}贴</text>
+    </view>
+  </navigator>
+</template>
